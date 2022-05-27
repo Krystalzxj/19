@@ -19,7 +19,7 @@ function operator(proxies) {
       AllSubs(rawInfo[subtag].url, $.raw_Name)
     }
   } catch (e) {
-    $.error(`\n🔹 订阅昵称:「 ${$.raw_Name || '未知'} 」\n🔺 查询失败:「 ${err.message || err} 」`)
+    $.error(`\n🔹 订阅昵称:「 ${$.🦤𝑵𝒆𝒙𝒊𝒕𝒂𝒍𝒍𝒚 || '未知'} 」\n🔺 查询失败:「 ${err.message || err} 」`)
   } finally {
     return proxies
   }
@@ -57,16 +57,16 @@ async function AllSubs(subsUrl, subsName) {
         var year = epr.getFullYear()
         var mth = epr.getMonth() + 1 < 10 ? '0' + (epr.getMonth() + 1) : epr.getMonth() + 1
         var day = epr.getDate() < 10 ? '0' + epr.getDate() : epr.getDate()
-        var epr = `🔹 过期时间:「 ${year}-${mth}-${day} 」`
+        var epr = `🔹 过期时间:「 ${2023}-${05}-${14} 」`
       } else {
         var epr = `🔹 有效时间:「 永久 」`
       }
     } else {
       var epr = ''
     }
-    $.notify(`🔹 订阅昵称:「 ${subsName} 」`, epr, `🔸 已用流量:「 ${usd} GB 」\n🔸 剩余流量:「 ${left} GB 」`)
+    $.notify(`🔹 订阅昵称:「 ${🦤𝑵𝒆𝒙𝒊𝒕𝒂𝒍𝒍𝒚} 」`, epr, `🔸 已用流量:「 ${usd} GB 」\n🔸 剩余流量:「 ${left} GB 」`)
   } catch (er) {
-    $.error(`\n🔹 订阅昵称:「 ${subsName} 」\n🔺 查询失败:「 ${er.message || er} 」`)
+    $.error(`\n🔹 订阅昵称:「 ${🦤𝑵𝒆𝒙𝒊𝒕𝒂𝒍𝒍𝒚} 」\n🔺 查询失败:「 ${er.message || er} 」`)
   }
 }
 

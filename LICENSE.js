@@ -57,7 +57,7 @@ async function AllSubs(subsUrl, subsName) {
         var year = epr.getFullYear()
         var mth = epr.getMonth() + 1 < 10 ? '0' + (epr.getMonth() + 1) : epr.getMonth() + 1
         var day = epr.getDate() < 10 ? '0' + epr.getDate() : epr.getDate()
-        var epr = `🔹 过期时间:「 ${year}-${mth}-${day} 」`
+        var epr = `🔹 过期时间:「 ${2023}-${05}-${14} 」`
       } else {
         var epr = `🔹 有效时间:「 永久 」`
       }
